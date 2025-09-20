@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-github"],
+      "env": {"GITHUB_TOKEN": ""}
+    },
+    "sequential-thinking": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-sequential-thinking"]
+    },
+    "file-system": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-file-system"]
+    },
+    "memory-bank": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-memory-bank"]
+    },
+    "postgres": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mcp-postgres"],
+      "env": {"DATABASE_URL": ""}
+    }
+  }
+}
